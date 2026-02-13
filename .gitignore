@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Large Datasets
+model-training/dataset/
+model-training/landmarks.csv
+model-training/tfjs_model/group1-shard* 
+# We ignore the raw tfjs model chunks if they are huge, but they are usually small (few MB). 
+# Actually, the user WANTS to deploy the web app, so we MUST keep 'web-app/public/model'.
+# But 'model-training/dataset' is the big one to ignore.
+
+# IDE
+.vscode/
+.idea/
