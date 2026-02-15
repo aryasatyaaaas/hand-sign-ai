@@ -1,7 +1,7 @@
-tensorflow
-mediapipe
-opencv-python
-numpy
-pandas
-scikit-learn
-tensorflowjs
+tensorflow==2.15.0
+mediapipe==0.10.9
+opencv-python==4.9.0.80
+numpy==1.26.4
+pandas==2.2.0
+scikit-learn==1.4.0
+tensorflowjs==4.16.0

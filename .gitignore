@@ -37,3 +37,7 @@ model-training/tfjs_model/group1-shard*
 # IDE
 .vscode/
 .idea/
+
+# Virtual Environments
+venv/
+model-training/venv/

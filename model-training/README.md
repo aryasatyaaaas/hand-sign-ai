@@ -3,10 +3,15 @@
 This folder contains scripts to train your custom Sign Language translation model.
 
 ## 1. Setup Environment
-Open a terminal in this folder (`model-training`) and run:
-```bash
-pip install -r requirements.txt
-```
+**Windows Users:**
+1.  Double-click `setup_env.bat` to create the environment and install dependencies.
+2.  Double-click `run_console.bat` to open a terminal with the environment activated.
+
+**Mac/Linux Users:**
+1.  Open a terminal in this folder.
+2.  Run `python3 -m venv venv`
+3.  Run `source venv/bin/activate`
+4.  Run `pip install -r requirements.txt`
 
 ## 2. Prepare Dataset
 1.  Download a Sign Language dataset (e.g., [ASL Alphabet from Kaggle](https://www.kaggle.com/datasets/grassknoted/asl-alphabet)).
